@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>전체페이지</title>
+
+
+    <script src="https://kit.fontawesome.com/80a2be1de2.js" crossorigin="anonymous"></script> <!--fontawesome-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> <!-- korean fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- main title font -->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+
+    <script src="js/jquery-3.6.0.min.js"></script> <!-- Jquery CDN -->
+
+    <!-- particle plugin CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script> <!-- fullpage plugin CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"> <!-- fullpage plugin CDN -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- bring aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+
+
+
+
+
+  </head>
+  <body>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <ul id="sideMenu">
+      <li data-menuanchor="anchor1">
+        <a href="#anchor1"><i class="fab fa-rocketchat"></i></a>
+        <span>Main</span>
+      </li>
+      <li data-menuanchor="anchor2">
+        <a href="#anchor2"><i class="fas fa-book"></i></a>
+        <span>Project 1</span>
+      </li>
+      <li data-menuanchor="anchor3">
+        <a href="#anchor3"><i class="fas fa-headphones-alt"></i></a>
+        <span>Project 2</span>
+      </li>
+      <li data-menuanchor="anchor4">
+        <a href="#anchor4"><i class="fas fa-hamburger"></i></a>
+        <span>Project 3</span>
+      </li>
+      <li data-menuanchor="anchor5">
+        <a href="#anchor5"><i class="fas fa-brush"></i></a>
+        <span>Project 4</span>
+      </li>
+      <li data-menuanchor="anchor6">
+        <a href="#anchor6"><i class="fas fa-address-card"></i></a>
+        <span>About Me</span>
+      </li>
+    </ul>
+
+    <div id="wrap">
+
+
+
+
+      <div id="fullpage">
+
+
+        <div id="Introduce" class="section">
+
+
+          <section id="default_section">
+            <div id="particles-js">
+
+              <div class="randomImg">
+                <img src="img/random_img1.png" alt="첫번째 랜덤 이미지">
+                <img src="img/random_img2.png" alt="두번째 랜덤 이미지">
+              </div>
+
+
+              <div class="intro_contents">
+                <div class="intro_list">
+                  <ul>
+                    <li>Architect</li>
+                    <li>Front-end</li>
+                    <li>Programming</li>
+                    <li>I'm Web Developer</li>
+                  </ul>
+                </div>
+                <p class="typing"></p>
+
+
+
+              </div>
+              <div class="scrollDown">
+                <div class="mouse">
+                  <div class="scroller">
+                  </div>
+                </div>
+
+
+
+              </div>
+
+            </div>
+
+          </section>
+        </div>
+
+
+        <!--project1 start -->
+
+        <div id="project1" class="section">
+          <section id="first_section" data-anchor="slide1">
+            <div class="contents">
+
+
+              <div class="contents_text"> <!-- 왼쪽 컨텐츠 start -->
+
+
+
+                <div class="contents_title">
+                  <div data-aos="fade-right"
+                       data-aos-duration="300"
+                       data-aos-easing="ease-in-sine">
+                    <ul>
+                      <li>PROJECT 01</li>
+                    </ul>
+                  </div>
+
+                  <div class="contents_subtitle">
+                    <div data-aos="fade-right"
+                         data-aos-duration="350"
+                         data-aos-easing="ease-in-sine">
+                      <p>Interpark</p>
+                      <p>Open Api, Json, Javascript, Jquery</p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="contents_color">
+
+                  <div data-aos="fade-right"
+                       data-aos-duration="400"
+                       data-aos-easing="ease-in-sine">
+                    <dl>
+                      <dt>POINT COLOR</dt>
+                      <dd>　</dd>
+                      <dd>　</dd>
+                      <dd>　</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="contents_info"> <!-- 간략한 사이트 설명 example -->
+
+                  <div data-aos="fade-right"
+                       data-aos-duration="450"
+                       data-aos-easing="ease-in-sine">
+
+                    <p>국내 웹 도서 사이트 '인터파크 도서'입니다.<br>
+                      페이지 내의 도서 내용들은 KaKao에서 제공하는 Open API를 사용했고,<br>
+                      발급받은 Rest Api Key로 데이터를 불러왔습니다.</p>
+
+                    <p>도서사이트를 차지하는 많은 정보들을 고려 하여<br>
+                      복잡한 레이아웃을 좀 더 간결하며 모던하게 만들었습니다.</p>
+
+                    <p>Javascript, Jquery 를 사용하여 진열된 도서들의 동적인 기능을 추가했습니다.<br>
+                        더하여 Gallery 항목을 신설해 메인 페이지 하단에 배치 시켜서<br>
+                        유저의 편의성을 위해 Mouse drag slider 로 제작 하였습니다.
+                      </p>
+
+                    <p>도서를 구매가능한 Sub Page, Login Popup 등을 제작했습니다.</p> 
+                  </div>
+                </div>
+                <div class="contents_button">
+
+                  <button type="button" onClick="window.open('https://amooonsen.github.io/4thPortFolio/')">MAIN PAGE</button>
+                  <button type="button" onClick="window.open('https://amooonsen.github.io/4thPortFolio/sub.html')">SUB PAGE</button>
+                  <button type="button" onClick="window.open('https://github.com/amooonsen/4thPortFolio')">PROCESS</button>
+
+                </div>
+
+              </div> <!-- 왼쪽 컨텐츠 end -->
+
+
+              <div class="contents_wheel"> <!-- 오른쪽 컨텐츠 start -->
+                <div class="mainIcon"><i class="far fa-folder-open"></i></div>
+                <div class="wheelMain">
+                  <img src="img/interpark_main.png" alt="인터파크 메인 이미지" onClick="window.open('https://amooonsen.github.io/4thPortFolio/')">
+
+
+                </div>
+               
+
+
+              </div> <!-- 오른쪽 컨텐츠 end -->
+
+
+
+            </div>
+          </section>
+        </div>
+
+        <!-- project 1 interpark end -->
+
+        <!-- project 2 ushno start -->
+        <div id="project2" class="section">
+          <section id="second_section" data-anchor="slide2">
+            <div class="contents">
+
+
+              <div class="contents_text"> <!-- 왼쪽 컨텐츠 start -->
+
+
+
+                <div class="contents_title">
+                  <div data-aos="fade-right"
+                       data-aos-duration="300"
+                       data-aos-easing="ease-in-sine">
+                    <ul>
+                      <li>PROJECT 02</li>
+                    </ul>
+                  </div>
+
+                  <div class="contents_subtitle">
+                    <div data-aos="fade-right"
+                         data-aos-duration="350"
+                         data-aos-easing="ease-in-sine">
+                      <p>Ushno</p>
+                      <p>Responsive Web with Javascript</p>
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+
+                <div class="contents_color">
+                  <div data-aos="fade-right"
+                       data-aos-duration="400"
+                       data-aos-easing="ease-in-sine">
+                    <dl>
+                      <dt>POINT COLOR</dt>
+                      <dd>　</dd>
+                      <dd>　</dd>
+                      <dd>　</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="contents_info"> <!-- 간략한 사이트 설명 example -->
+                  <div data-aos="fade-right"
+                       data-aos-duration="450"
+                       data-aos-easing="ease-in-sine">
+
+                    <p>라디오 브로드캐스트 사이트인 'Ushno' 입니다.<br>
+                        Phone, Pad, Website 세 가지의 반응형 환경을 만들었습니다. </p>
+
+                    <p>다이나믹한 실황을 전달 해야하는 사이트 특성을 살리기 위해<br>
+                      퍼플 계열의 컬러들을 활용하여 그라데이션 하여 디자인 했습니다.
+                     </p>
+
+                    <p>CSS3 의 flex 속성을 사용하여 Container 가 차지하는<br>
+                      공간들의 규격을 일관성있게 맞추도록 기획 하였습니다. 컨텐츠 사이에<br>
+                      충분한 여백을 부여하여 각 파트끼리 독립되어 보이도록 하였습니다.</p>
+
+                    <p>서브 페이지의 img와 video 또한 포인트 컬러의 색감을 유지함과 동시에<br>
+                       하단 메거진 레이아웃을 복잡성이 나타나도록 설계 하였습니다.
+                      </p> 
+                  </div>
+
+                </div>
+                <div class="contents_button">
+
+                  <button type="button" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')">MAIN PAGE</button>
+                  <button type="button" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/sub.html')">SUB PAGE</button>
+                  <button type="button" onClick="window.open('https://github.com/amooonsen/3rd_portfolio')">PROCESS</button>
+
+                </div>
+
+                <div class="mobileWrap">
+
+                <div class="mobile">
+                    <ul>
+                      <li><img src="img/ushno/ushno1.png" alt="ushno mobile img 1" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno2.png" alt="ushno mobile img 2" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno3.png" alt="ushno mobile img 3" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno4.png" alt="ushno mobile img 4" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno5.png" alt="ushno mobile img 5" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno6.png" alt="ushno mobile img 6" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno7.png" alt="ushno mobile img 7" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno8.png" alt="ushno mobile img 8" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno9.png" alt="ushno mobile img 9" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno10.png" alt="ushno mobile img 10" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno11.png" alt="ushno mobile img 11" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno12.png" alt="ushno mobile img 12" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno13.png" alt="ushno mobile img 13" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      <li><img src="img/ushno/ushno14.png" alt="ushno mobile img 14" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')"></li>
+                      </ul>
+                </div>
+
+              </div>
+
+              </div> <!-- 왼쪽 컨텐츠 end -->
+
+
+              <div class="contents_wheel"> <!-- 오른쪽 컨텐츠 start -->
+                <div class="wheelMain">
+                  <img src="img/ushno_main.png" alt="Ushno 메인 이미지" onClick="window.open('https://amooonsen.github.io/3rd_portfolio/')">
+                </div>
+                
+
+
+              </div> <!-- 오른쪽 컨텐츠 end -->
+
+
+
+            </div>
+          </section>
+        </div>
+
+        <!-- project 2 unsho end -->
+
+        <!-- project 3 gorumet burger start-->
+
+        <div id="project3" class="section">
+          <section id="third_section" data-anchor="slide3">
+            <div class="contents">
+
+
+              <div class="contents_text"> <!-- 왼쪽 컨텐츠 start -->
+
+
+
+                <div class="contents_title">
+                  <div data-aos="fade-right"
+                       data-aos-duration="300"
+                       data-aos-easing="ease-in-sine">
+                    <ul>
+                      <li>PROJECT 03</li>
+                    </ul>
+                  </div>
+
+                  <div class="contents_subtitle">
+                    <div data-aos="fade-right"
+                         data-aos-duration="350"
+                         data-aos-easing="ease-in-sine">
+                      <p>Gorumet Burger</p>
+                      <p>Responsive Web</p>
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+
+                <div class="contents_color">
+                  <div data-aos="fade-right"
+                       data-aos-duration="400"
+                       data-aos-easing="ease-in-sine">
+                    <dl>
+                      <dt>POINT COLOR</dt>
+                      <dd>　</dd>
+                      <dd>　</dd>
+                      <dd>　</dd>
+                    </dl>
+                  </div>
+                </div>
+                <div class="contents_info"> <!-- 간략한 사이트 설명 example -->
+                  <div data-aos="fade-right"
+                       data-aos-duration="450"
+                       data-aos-easing="ease-in-sine">
+
+                    <p>햄버거 요리 전문점인 'Gourmet Burger' 의 홍보 사이트 입니다.<br>
+                       미디어 쿼리를 이용해 디바이스 별로 대응하도록 시도해 보았습니다.</p>
+
+                    <p>기품있고 요리와 어울리는 무드를 전반적으로 스며들게 하기 위하여,<br>
+                        검은색 바탕에 카키색을 포인트로 하여 절제된 색감을 구현 했습니다.</p>
+
+                    <p>메인 페이지의 이미지들은 고객들의 구매 의사를 높히기 위해 이미지<br>
+                       위주로 틀을 구성 하였습니다.
+                       </p>
+
+                    <p>화면이 599,600,1100으로 resize 될 때 마다 네비게이션이<br>
+                    변화되는 css를 Jquery로 제어 했습니다.</p> 
+                  </div>
+
+                </div>
+                <div class="contents_button">
+                  <button type="button" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')">MAIN PAGE</button>
+                  <button type="button" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/sub.html')">SUB PAGE</button>
+                  <button type="button" onClick="window.open('https://github.com/amooonsen/2nd_portfolio')">PROCESS</button>
+                </div>
+
+                <div class="mobileWrap">
+
+               <div class="mobile">
+                    <ul>
+                      <li><img src="img/gorumet/gorumet1.png" alt="gorumet mobile img 1" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+                      <li><img src="img/gorumet/gorumet2.png" alt="gorumet mobile img 2" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+                      <li><img src="img/gorumet/gorumet3.png" alt="gorumet mobile img 3" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+                      <li><img src="img/gorumet/gorumet4.png" alt="gorumet mobile img 4" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+                      <li><img src="img/gorumet/gorumet5.png" alt="gorumet mobile img 5" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+                      <li><img src="img/gorumet/gorumet6.png" alt="gorumet mobile img 6" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+                      <li><img src="img/gorumet/gorumet7.png" alt="gorumet mobile img 7" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+                      <li><img src="img/gorumet/gorumet8.png" alt="gorumet mobile img 8" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+                      <li><img src="img/gorumet/gorumet9.png" alt="gorumet mobile img 9" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')"></li>
+
+                      
+                      </ul>
+                </div>
+
+              </div>
+
+              </div> <!-- 왼쪽 컨텐츠 end -->
+
+
+              <div class="contents_wheel"> <!-- 오른쪽 컨텐츠 start -->
+                <div class="wheelMain">
+                  <img src="img/gorumet_main.png" alt="gorumet burger 메인 이미지" onClick="window.open('https://amooonsen.github.io/2nd_portfolio/')">
+                </div>
+               
+
+
+              </div> <!-- 오른쪽 컨텐츠 end -->
+
+
+
+            </div>
+          </section>
+        </div>
+
+        <!-- project 3 gorumet burger end -->
+
+        <!-- project 4 home&tones start-->
+
+        <div id="project4" class="section">
+          <section id="fourth_section" data-anchor="slide4">
+
+            <div class="contents">
+
+
+              <div class="contents_text"> <!-- 왼쪽 컨텐츠 start -->
+
+
+
+                <div class="contents_title">
+
+                  <div data-aos="fade-right"
+                       data-aos-duration="300"
+                       data-aos-easing="ease-out-bounce">  <!-- fade in/out -->
+
+                    <ul>
+                      <li>PROJECT 04</li>
+                    </ul>
+                  </div>
+
+                  <div class="contents_subtitle">
+
+                    <div data-aos="fade-right"
+                         data-aos-duration="350"
+                         data-aos-easing="ease-in-sine">
+                      <p>HOME&TONES</p>
+                      <p>HTML5, CSS3, Json, Jquery</p>
+                    </div> <!-- fade in/out -->
+                  </div>
+
+
+
+                </div>
+
+                <div class="contents_color">
+                  <div data-aos="fade-right"
+                       data-aos-duration="400"
+                       data-aos-easing="ease-in-sine">
+                    
+                      <dl>
+                        <dt>POINT COLOR</dt>
+                        <dd>　</dd>
+                        <dd>　</dd>
+                        <dd>　</dd>
+                      </dl>
+                    
+                  </div>
+                </div>
+                <div class="contents_info"> <!-- 간략한 사이트 설명 example -->
+                  <div data-aos="fade-right"
+                       data-aos-duration="450"
+                       data-aos-easing="ease-in-sine">
+
+                    <p>페인트 판매 전문 쇼핑몰인 "HOME&TONES" 입니다.<br>
+                    Ajax를 사용하여 Json 포멧의 데이터를 컨텐츠에 호출 함으로서,<br> 
+                    하드 코딩이 아닌 서버에서 받아온 데이터를 효율적으로 기입하도록 하였습니다.</p>
+
+                    <p>파스텔 느낌을 가진 잔잔한 아이보리 계열의 색을 포인트컬러로 지정했습니다.<br>
+                      은은한 회색을 텍스트에 사용하여 이미지가 중심이 되도록 디자인 했습니다.<br>
+                     </p>
+
+                      <p>컨텐츠를 세분화 해주는 타이틀에 검은색을 넣어 가독성을 높혔습니다.</p>
+
+                  </div>
+                </div>
+                <div class="contents_button">
+
+                  <button type="button" onClick="window.open('https://amooonsen.github.io/first_portfolio/')">MAIN PAGE</button>
+                  <button type="button" onClick="window.open('https://amooonsen.github.io/first_portfolio/sub.html')">SUB PAGE</button>
+                  <button type="button" onClick="window.open('https://github.com/amooonsen/first_portfolio')">PROCESS</button>
+
+                </div>
+
+              </div> <!-- 왼쪽 컨텐츠 end -->
+
+              <div class="contents_wheel"> <!-- 오른쪽 컨텐츠 start -->
+
+                <div class="wheelMain">
+
+                  <img src="img/home&tones.png" alt="HOME&TONES 메인 이미지" onClick="window.open('https://amooonsen.github.io/first_portfolio/')">
+                </div>
+                
+
+
+              </div> <!-- 오른쪽 컨텐츠 end -->
+
+
+
+            </div>
+          </section>
+        </div>
+
+        <!-- project 4 home&tones end -->
+
+
+        <!-- aboutMe start -->
+
+        <div id="aboutMe" class="section">
+          <section id="aboutMe_section" data-anchor="slide5" >
+            <div class="aboutMeContents">
+
+
+
+              <div class="aboutMeLeft">
+
+
+                <div class="aboutMetitle">
+                  <div data-aos="flip-left"
+                       data-aos-offset="300"
+                       data-aos-easing="ease-in-sine">
+
+                    <h2>About Me</h2>
+                  </div>
+                </div>
+
+                <div class="aboutMeInfo">
+                  <div data-aos="flip-right"
+                       data-aos-offset="500"
+                       data-aos-easing="ease-in-sine">
+                    <div id=fadeText> <!-- 텍스트 나타나고 사라지는 효과 -->
+                      Make
+                      <div id=flip>
+                        <div><div>Project</div></div>
+                        <div><div>Architecture</div></div>
+                        <div><div>Development</div></div>
+                        
+                      </div>
+                      with me!
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="aboutMeCareer">
+
+
+                  <div class="aboutMeProfile">
+                    <div data-aos="zoom-in"
+                         data-aos-delay="150"
+                         data-aos-easing="ease-in-sine">
+                      <dl>
+                        <dt>STUDY</dt>
+                        <dd>이젠컴퓨터아카데미</dd>
+                        <dd>반응형 UI/UX 웹퍼블리셔전문가 양성</dd>
+                        <dd>2021.04.14 - 2021.09</dd>
+                      </dl>
+                    </div>
+
+                  </div>
+
+                  <div class="aboutMeProfile">
+                    <div data-aos="zoom-in"
+                         data-aos-delay="250"
+                         data-aos-easing="ease-in-sine">
+                      <dl>
+                        <dt>HISTORY</dt>
+                        <dd>2020.11.16 - 2021.01.31 LGCNS NLP 상품기획</dd>
+                        <dd>2019.09.01 - 2020.02.28 LotteWorld Marketing Team 2</dd>
+                        <dd>2018.06.26 - 2018.08.17 LotteHotel Renewal 기획</dd>
+                      </dl>
+                    </div>
+                  </div>
+
+
+                </div> <!-- aboutMeCareer end -->
+
+
+                <div class="aboutMeSkill">
+                  <div data-aos="zoom-in"
+                       data-aos-delay="350"
+                       data-aos-easing="ease-in-sine">
+
+                    <h3>My SKill</h3>
+
+                    <div class="pro">
+                      <div data-aos="zoom-in"
+                           data-aos-delay="400"
+                           data-aos-easing="ease-in-sine">
+                        <p>HTML5</p>
+                        <progress value="70" max="100" class="proBar" ></progress>
+                      </div>
+                    </div>
+
+                    <div class="pro">
+                      <div data-aos="zoom-in"
+                           data-aos-delay="450"
+                           data-aos-easing="ease-in-sine">
+                        <p>CSS3</p>
+                        <progress value="77" max="100" class="proBar"></progress>
+                      </div>
+                    </div>
+
+                  
+                    <div class="pro">
+                      <div data-aos="zoom-in"
+                           data-aos-delay="500"
+                           data-aos-easing="ease-in-sine">
+                        <p>JavaScript</p>
+                        <progress value="45" max="100" class="proBar"></progress>
+                      </div>
+                    </div>
+
+                    <div class="pro">
+                      <div data-aos="zoom-in"
+                           data-aos-delay="550"
+                           data-aos-easing="ease-in-sine">
+                        <p>Jquery</p>
+                        <progress value="55" max="100" class="proBar"></progress>
+                      </div>
+                    </div>
+
+                    <div class="pro">
+                      <div data-aos="zoom-in"
+                           data-aos-delay="600"
+                           data-aos-easing="ease-in-sine">
+                        <p>Vue</p>
+                        <progress value="35" max="100" class="proBar"></progress>
+                      </div>
+                    </div>
+
+                    <div class="pro">
+                      <div data-aos="zoom-in"
+                           data-aos-delay="650"
+                           data-aos-easing="ease-in-sine">
+                        <p>NodeJs</p>
+                        <progress value="20" max="100" class="proBar"></progress>
+                      </div>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+
+                </div> <!-- left end -->
+
+                <div class="aboutMeRight">
+
+
+                  <div class="aboutMeImg">
+                    <div class="aboutMeImgBox">
+                      <img src="https://images.unsplash.com/photo-1605664041954-fc778c387c02?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="증명 사진">
+                    </div>
+                  </div>
+
+                  <div class="aboutMeEtc">
+                 
+                    <dl>
+                      <dt>Profile</dt>
+                      <dd>Name : 조경문</dd>
+                      <dd>Birth : July 1998</dd>
+                      <dd>Age : 24</dd>
+                      <dd>Gender : Male</dd>
+                      <dd>Address : Suwon</dd>
+                      <dd>Major : Electronics</dd>
+
+                    </dl>
+
+
+                    <dl>
+                      <dt>Contact</dt>
+                      <dd><i class="fas fa-mobile-alt"></i><p>010-9976-5695</p></dd>
+                      <dd><i class="fab fa-instagram" onclick="window.open('https://instagram.com')"></i><p>@_mo__on</p></dd>
+                      <dd><i class="far fa-envelope" onclick="window.open('https://nid.naver.com/nidlogin.login')"></i><p>newabekar@naver.com</p></dd>
+                      <dd><i class="fab fa-github-square" onClick="window.open('https://github.com/amooonsen')"></i><p>github.com/amooonsen</p></dd>
+
+                    </dl>
+          
+
+                  </div>
+
+
+
+                </div> <!-- aboutMeRight end -->
+
+              </div>
+
+              </section>
+            </div>
+
+
+        </div> <!-- fullpage end -->
+
+      </div>
+
+      <!---파티클스크립트--->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+      <script src="js/particle.js"></script> <!-- 눈 내리는 효과 -->
+      <script src="js/fullPage.js"></script> <!-- 스크롤 시 100vh로 넘어가고 menu 클릭 시 페이지 전환 -->
+      <script src="js/typing.js"></script> <!-- main category 글자 출력-->
+      <script src="js/scrollImg.js"></script> <!-- 이미지에 mouseenter 시 사진 내려감 -->
+      <script src="js/aboutMe.js"></script>
+
+
+
+      <!-- mainImg 옆에 모바일 화면 스크립트 -->
+
+      <script>
+         function mobileSlide(){
+
+   $('#project2 .mobile > ul').stop().animate({marginTop:-510},500, function(){
+
+    $('#project2 .mobile > ul > li:first').appendTo('#project2 .mobile > ul');
+
+    $('#project2 .mobile > ul').css({marginTop:0});
+
+   });
+
+  }
+
+
+
+  setInterval(mobileSlide, 3000);
+
+           function mobileSlide2(){
+
+   $('#project3 .mobile > ul').stop().animate({marginTop:-510},500, function(){
+
+    $('#project3 .mobile > ul > li:first').appendTo('#project3 .mobile > ul');
+
+    $('#project3 .mobile > ul').css({marginTop:0});
+
+   });
+
+  }
+
+
+
+  setInterval(mobileSlide2, 3000);
+
+
+      </script>
+
+
+      </body>
+    </html>
