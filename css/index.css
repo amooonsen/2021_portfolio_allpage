@@ -39,7 +39,7 @@ transition-timing-function:ease;
 .intro_contents {position: absolute; z-index: 0; top: 55%; left: 50%; transform: translate(-50%,-50%);}
 
 .randomImg {width: 100%; height: 0%; display: flex; justify-content: center; align-items: flex-end; position: absolute; z-index: 0; top: 47%;}
-.randomImg img {width: 200px; height: 200px;}
+.randomImg img {width: 400px; height: 320px;}
 .randomImg img:last-child {display: none;}
 
 /* 프로젝트들 감싸는 wrap */
